@@ -1,3 +1,4 @@
+package br.com.leitor.rel.util;
 import java.util.HashMap;
 import java.util.Map;
 

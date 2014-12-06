@@ -1,3 +1,4 @@
+package br.com.leitor.rel.util;
 import java.io.File;
 import java.util.List;
 
@@ -32,7 +33,7 @@ public class ValidaFormUtil {
 		return true;
 	}
 	
-	/**	Método que verifica se o arquivo está no formato REL **/
+	/**	Mï¿½todo que verifica se o arquivo estï¿½ no formato REL **/
 	public boolean validaFileREL(File fileREL) {
 		if (fileREL.getName().toLowerCase().endsWith(".rel")){
 			return true;
@@ -40,7 +41,7 @@ public class ValidaFormUtil {
 		return false;
 	}
 
-	/** Método que verifica se a lista dos arquivos está no formato REL **/
+	/** Mï¿½todo que verifica se a lista dos arquivos estï¿½ no formato REL **/
 	public boolean validaListaFileREL(List<File> listFileREL) {
 		for (File fileREL : listFileREL) {
 			if (fileREL.getName().toLowerCase().endsWith(".rel")) {
